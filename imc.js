@@ -28,6 +28,7 @@ const peso = parseFloat(teclado('Digite seu peso em kg: '));
 const altura = parseFloat(teclado('Digite sua altura em metros: '));
 
 // Verifica se os valores são válidos
+/*Aqui você está verificando se um ou outro daria pra verifcar os dois tbm, trocando o operador OU por E (&&)*/
 if (isNaN(peso) || isNaN(altura)) {
     console.log('Por favor, insira valores válidos.');
 } else {
